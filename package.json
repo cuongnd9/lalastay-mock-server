@@ -1,0 +1,16 @@
+{
+  "name": "lalastay-mock-server",
+  "version": "1.0.0",
+  "description": "Mock server for Lalastay.",
+  "main": "index.js",
+  "repository": "git@github.com:uiters/lalastay-mock-server.git",
+  "author": "Nguyen Duy Cuong <cuongw.me@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "json-server": "^0.15.1",
+    "lowdb": "^1.0.0"
+  }
+}
