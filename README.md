@@ -7,4 +7,7 @@ $ yarn
 $ yarn start
 ```
 
-Go to: [http://localhost:6996](http://localhost:6996)
+## Enviroments
+
+- Local: [http://localhost:6996](http://localhost:6996)
+- Development: [https://lalastay-mock-server.cuongw.now.sh](https://lalastay-mock-server.cuongw.now.sh)
