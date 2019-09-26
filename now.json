@@ -2,8 +2,13 @@
   "name": "lalastay-mock-server",
   "version": 2,
   "builds": [
-    { "src": "db.json", "use": "@now/static" },
-    { "src": "index.js", "use": "@now/node" }
+    {
+      "src": "index.js",
+      "use": "@now/node-server",
+      "config": {
+        "includeFiles": ["db.json"]
+      }
+    }
   ],
   "routes": [
     {
